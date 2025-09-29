@@ -1,0 +1,221 @@
+@media only screen and (min-width: 0rem) {
+  #sbsr-1810 {
+    padding: var(--sectionPadding);
+    padding-bottom: clamp(6.25rem, 8vw, 12.5rem);
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+  }
+  #sbsr-1810 .cs-container {
+    width: 100%;
+    max-width: 80rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: clamp(3rem, 6vw, 4rem);
+  }
+  #sbsr-1810 .cs-content {
+    text-align: left;
+    width: 100%;
+    max-width: 32.625rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    z-index: 3;
+    padding-left: clamp(0px, 4vw, 20px);
+  }
+  #sbsr-1810 .cs-text {
+    color: #004277;
+    margin: 5px 0 30px 0;
+    font-size: clamp(0.8rem, 1.2vw, 1.5rem)!important;
+  }
+    #sbsr-1810 .cs-title {
+    color: #004277;
+    font-size: clamp(1.0rem, 4.5vw, 2.5rem);
+    margin:0;
+  }
+  #sbsr-1810 .cs-text:last-of-type {
+    margin-bottom: 1rem;
+  }
+  #sbsr-1810 .cs-button-solid {
+  font-size: clamp(1rem, 1.2rem, 1.5rem);
+  line-height: clamp(2.875rem, 5.5vw, 3.5rem);
+  text-decoration: none;
+  font-weight: 700;
+  text-align: center;
+  margin: 0;
+  color: #004277;
+  min-width: 9.375rem;
+  padding: 0 1.5rem;
+  background-color: white;
+  border: 2px solid #e7bc42;
+  border-radius: 0.25rem;
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+  box-sizing: border-box;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+  #sbsr-1810 .cs-button-solid:before {
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: #e7bc42;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  border-radius: 0.25rem;
+  transition: opacity 0.3s ease;
+}
+ #sbsr-1810 .cs-button-solid:hover:before {
+  opacity: 1;
+}
+  #sbsr-1810 .cs-image-group {
+    font-size: min(1.7vw, .60rem);
+    width: 43.6875em;
+    height: 40.1875em;
+    position: relative;
+    z-index: 1;
+  }
+  #sbsr-1810 .cs-image-group:before {
+    content: '';
+    width: 110rem;
+    height: 110rem;
+    margin-left: -18.75rem;
+    background-color: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(20px);
+    position: absolute;
+    display: none;
+    top: -12.5em;
+    left: 50%;
+    transform: skew(-40deg);
+    transform-origin: center;
+    z-index: -1;
+  }
+  #sbsr-1810 .cs-picture {
+    width: auto;
+    height: 40.1875em;
+    display: block;
+    position: absolute;
+    left: clamp(20%, 50%, 70%);
+    bottom: 0em;
+    transform: translateX(-50%);
+    padding-right: clamp(0px, 4vw, 20px);
+    margin-right: clamp(0px, 4vw, 20px);
+  }
+  #sbsr-1810 .cs-picture img {
+    width: auto;
+    height: 100%;
+    object-fit: contain;
+  }
+
+
+  #sbsr-1810 .cs-dark {
+    display: none;
+  }
+}
+@media only screen and (min-width: 48rem) {
+  #sbsr-1810 .cs-container {
+    max-width: 80rem;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #sbsr-1810 .cs-image-group {
+    font-size: min(1.2vw, 1rem);
+    order: 2;
+    flex: 0 0 35%;
+    max-width: 35%;
+  }
+  #sbsr-1810 .cs-image-group:before {
+    display: block;
+  }
+  #sbsr-1810 .cs-content {
+    flex: 0 0 60%;
+    max-width: 60%;
+  }
+}
+@media (max-width: 47.999rem) {
+
+  #sbsr-1810 {
+    padding-inline: clamp(1rem, 5vw, 2rem);
+    margin-top: 80px;
+    padding-bottom: 10px;
+  }
+
+
+  #sbsr-1810 .cs-container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: clamp(0.5rem, 2vw, 2.5rem);
+  }
+
+ 
+  #sbsr-1810 .cs-content {
+    order: 1;
+    width: 100%;
+    max-width: 38rem;
+    text-align: center;
+    align-items: center;
+    padding-left: 0;
+    padding-right: 0;
+    margin-inline: auto;
+  }
+
+  #sbsr-1810 .cs-title {
+    margin: 0 0 0.5rem 0;
+  }
+
+  #sbsr-1810 .cs-text {
+    margin: 0.5rem 0 1rem 0;
+  }
+
+  #sbsr-1810 .cs-button-solid {
+    display: inline-block;
+    font-size: clamp(0.7rem, 1.0rem, 1.5rem);
+  }
+
+  #sbsr-1810 .cs-image-group {
+    order: 2;
+    width: 100%;
+    max-width: 22rem;    
+    margin-inline: auto;
+    height: auto;
+    font-size: 1rem;     
+  }
+
+
+  #sbsr-1810 .cs-image-group:before {
+    display: none !important;
+  }
+
+ 
+  #sbsr-1810 .cs-picture {
+    position: static;   
+    inset: auto;
+    left: auto;
+    bottom: auto;
+    transform: none;
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0 auto;
+  }
+
+  #sbsr-1810 .cs-picture img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    display: block;
+  }
+
+ 
+  #sbsr-1810 .cs-dark {
+    display: none;
+  }
+}
