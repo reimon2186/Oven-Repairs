@@ -1,7 +1,8 @@
 @media only screen and (min-width: 0rem) {
   #sbsr-1810 {
     padding: var(--sectionPadding);
-    padding-bottom: clamp(6.25rem, 8vw, 12.5rem);
+    padding-bottom: clamp(3.25rem, 4vw, 6.5rem);
+    padding-top: clamp(3.25rem, 4vw, 6.5rem);
     overflow: hidden;
     position: relative;
     z-index: 1;

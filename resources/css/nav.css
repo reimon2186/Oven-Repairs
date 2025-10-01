@@ -5,8 +5,7 @@
       overflow: hidden;
     }
     .cs-button-solid .under-number {
-        color:#e6bc42
-                                 !important;
+        color:#e6bc42 !important;
         font-size: 2rem !important;
         margin-top: 0 !important;
     }
@@ -330,7 +329,7 @@
       line-height: 1.5em;
       text-decoration: none;
       margin: 0;
-      color: #005484;
+      color: #004376;
       display: block;
       height: 100%;
       position: relative;
@@ -370,7 +369,7 @@
       margin: 0;
       box-sizing: border-box;
       padding: 1.6rem 1.2rem;
-      color: #005484;
+      color: #004376;
       background-color: var(--primary);
       border-radius: 0.25rem;
       display: inline-block;
