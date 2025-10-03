@@ -1,253 +1,23 @@
 body {
-    margin: 0;
-    font-family: 'Montserrat', Arial;
-    color: #004376
-                                ;
-    line-height: 1.6;
-    background-color: #F4F4F4;
-}
-a {
-    text-decoration: none;
-    color: inherit;
-}
-.top-nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    font-size: 1em !important;
-}
-.top-nav a {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    font-size: 1.5em !important;
-}
-
-
-
-.phonenav{
-    display: none;
-}
-header {
-    background-color: #fff;
-    color: #004376
-                                ;
-    position:fixed;
-}
-.header-top {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 30px;
-    background-color: #fff;
-    color: #004376
-                                ;
-    height:150px;
-    position:fixed;
-    width:100%;
-    z-index:10;
-}
-.logo {
-    height: 200px;
-    width:auto;
-    
-}
-.contact-info {
-    text-align: right;
-}
-.phone-number {
-    font-size: 3em;
-    font-weight: 900;
-    margin-bottom: 0;
-    padding-bottom: 0;
-    line-height: 1.2em;
-    margin-right:50px;
-}
-.opening-times {
-    font-size: 1.5em;
-    color: #e6bc42
-                                ;
-    font-weight: 900;
-    text-align: center;
-    margin-top: 0;
-    padding-top: 0;
-    margin-right:10px;
-    line-height: 1.2em;
-}
-.top-nav{
-    padding-right: 150px ;
-    padding-top: 50px;
-}
-nav ul {
-    display: flex;
-    justify-content: center;
-    background: #fff;
-    margin: 0;
-    padding: 10px 0;
-}
-nav ul li {
-    margin: 0 20px;
-}
-nav ul li a {
-    color: #004376
-                                ;
-    font-size: 1em;
-    font-weight: bold;
-}
-.divider{
-    height:20px;
-    width:100%;
-    background-color: #fff;
-}
-.hero3{
-    
-    display:none;
-}
-.hero-container {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
- 
-}
-.hero {
-    display: block;
-}
-.hero-image {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-}
-.divide{
-    padding:10px;
-}
-.quote-overlay {
-    position: absolute;
-    right: 0;
-    top: 0;
-    width: 36.5%;
-    height: 100%;
-    background: rgba(0, 43, 91, 0.65);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    gap: 15px;
-    
-}
-
-.quote-form {
-    width: 40%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    
-    gap: 20px;
-}
-
-.quote-input {
-    width: 100%;
-    font-size: 1.1em;
-    border: 2px solid #fff;
-    border-radius: 5px;
-    background: #fff;
-    padding:10px 0;
-    color: #004376
-                                ;
-    outline: none;
-    text-align: center;
-}
-
-.quote-input::placeholder {
-    color: #949494;
-    font-size: 0.9em;
-}
-
-.quote-input:focus {
-    border-color: #e6bc42
-                                ;
-    background: #ffffff;
-}
-.quote-button {
-    background: white;
-    color: #004376
-                                ;
-    padding: 15px 35px;
-    font-size: clamp(1rem, 2vw, 1.8em);
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-weight: bold;
-    text-decoration: none;
-    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
-    }
-.quote-button:hover{
-    background-color: #e6bc42
-                                ;
-    transform: scale(1.1);
-    color:#fff;
-}
-body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #ffffff;
     color: #333;
 }
-
-
-
-.hero2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #004376
-                                ;
-    color: #ffffff;
-    width: 100%;
-    margin: 0;
-}
-
-.hero2-title {
-    font-size: clamp(1.5rem, 3vw, 3em);
-    font-weight: bold;
-    margin-bottom: 20px;
-    color: #ffffff;
-    text-align: center;
-    padding:10px;
-}
-
-.hero2-subtitle {
-    font-size: 1.2em;
-    margin-bottom: 15px;
-    color: #e6bc42
-                                ;
-    max-width: 1200px;
-    text-align: center;
-    padding:10px;
-}
-
-.cta-button {
-    display: inline-block;
-    padding: 15px 30px;
-    font-size: 1.2em;
+a {
     text-decoration: none;
+    color: inherit;
+}
+nav ul li {
+    margin: 0 20px;
+}
+nav ul li a {
+    color: #004376;
+    font-size: 1em;
     font-weight: bold;
-    border-radius: 5px;
-    transition: 0.3s ease;
-    margin-bottom: 40px;
-    background-color: #fff;
-    color: #004376
-                                ;
 }
 
-.cta-button:hover {
-    background-color: #e6bc42
-                                ;
-    color: #fff;
-    transform: scale(1.1);
-}
 .cta-button2 {
     display: inline-block;
     padding: 15px 30px;
@@ -264,8 +34,7 @@ body {
 
 .cta-button2:hover {
     background-color: #fff;
-    color: #004376
-                                ;
+    color: #004376;
     transform: scale(1.1);
 }
 .cta-button3 {
@@ -278,25 +47,19 @@ body {
     border-radius: 5px;
     transition: 0.3s ease;
     margin-bottom: 40px;
-    background-color: #004376
-                                ;
+    background-color: #004376;
     color: #fff;
 }
 
 .cta-button3:hover {
-    background-color: #e6bc42
-                                ;
+    background-color: #e6bc42;
     color: #fff;
     transform: scale(1.1);
 }
 
-
-
-
 .why-us {
     text-align: center;
-    background-color: #e6bc42
-                                ;
+    background-color: #e6bc42;
     padding: 40px 20px;
     margin: 0px auto;
 }
@@ -304,8 +67,7 @@ body {
 .why-us h2 {
     font-size: clamp(1.2rem, 2.5vw, 2.5em);
     font-weight: bold;
-    color: #004376
-                                ;
+    color: #004376;
     margin-bottom: 30px;
     text-transform: uppercase;
 }
@@ -853,11 +615,6 @@ body {
         margin: 0;
         overflow-x: hidden;
     }
- 
-  
-    .hero3{
-        display: block;
-    }
 
     .header-top {
         flex-direction: column;
@@ -891,19 +648,7 @@ body {
         font-size: 2em;
     }
 
-    .phonenav {
-        display: block;
-        color: #004376
-                                ;
-        width: 100%;
-        text-align: center;
-
-    }
-
-    .top-nav {
-        display: none;
-    }
-
+ 
     nav ul {
         flex-direction: column;
         align-items: center;
@@ -916,39 +661,6 @@ body {
     nav ul li {
         margin: 10px 0;
         text-align: center;
-    }
-    .hero{
-        display:none;
-    }
-  
-    .hero-container {
-        width: 100%;
-        overflow-x: hidden;
-    }
-    .hero2-subtitle{
-        padding:10px;
-    }
-
-    .hero-image {
-        width: 100%;
-        height: 300px;
-        object-fit: cover;
-    }
-
-    .quote-overlay {
-        width: 100%;
-        padding: 15px;
-        text-align: center;
-        box-sizing: border-box;
-        position: absolute;
-        right: 0;
-        top: 0;
-    }
-
-    .quote-form {
-        width: 100%;
-        box-sizing: border-box;
-        padding: 0 15px;
     }
     
     
