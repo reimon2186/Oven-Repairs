@@ -1,0 +1,148 @@
+:root{
+  --brand-blue:#004277;
+  --brand-gold:#e7bc42;
+  --ink:#0d1b2a;
+}
+
+
+.pricing-section{
+  color:var(--brand-blue);
+  background:#ffffff;
+  padding-top:clamp(3.25rem, 4vw, 6.5rem);
+  padding-bottom:clamp(3.25rem, 4vw, 6.5rem);
+  padding-left:clamp(1rem, 3vw, 2rem);
+  padding-right:clamp(1rem, 3vw, 2rem);
+}
+
+.pricing-container{
+  max-width: 960px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+.section-title{
+  font-size: clamp(1.75rem, 4.5vw, 3.25rem);
+  font-weight: 600;
+  margin: 0 0 1rem 0;
+  letter-spacing: .2px;
+}
+
+.pricing-intro{
+  font-size: clamp(0.95rem, 2vw, 1.2rem);
+  line-height: 1.6;
+  max-width: 70ch;
+  margin: 0 auto 2.25rem auto;
+  color: var(--ink);
+}
+.link{
+    color: var(--brand-blue);
+}
+
+.pricing-card{
+  background:#fff;
+  border:2px solid var(--brand-gold);
+  border-radius: 18px;
+  padding: clamp(2rem, 5vw, 3.25rem);
+  margin: 0 auto;
+  text-align: left; 
+  box-shadow:
+    0 1px 0 rgba(0,0,0,.05),
+    0 8px 24px rgba(0,0,0,.10),
+    0 18px 44px rgba(0,0,0,.06);
+}
+
+.card-title{
+  font-size: clamp(1.15rem, 2.8vw, 1.75rem);
+  font-weight: 700;
+  margin: 0 0 1rem 0;
+  color: var(--brand-blue);
+}
+
+
+.price-line{
+  display: flex;
+  align-items: baseline;
+  gap: .75rem;
+  margin: 0 0 1.25rem 0;
+}
+
+.price{
+  font-size: clamp(2.5rem, 8vw, 4.5rem);
+  font-weight: 900;
+  line-height: 1;
+  color: var(--brand-blue);
+}
+.plus{
+  font-size: clamp(1rem, 2.4vw, 1.25rem);
+  font-weight: 700;
+  color: var(--brand-gold);
+  white-space: nowrap;
+}
+
+.pricing-points{
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0 0 0;
+  display: grid;
+  gap: .65rem;
+}
+
+.pricing-points li{
+  position: relative;
+  padding-left: 1.9rem;
+  font-size: clamp(0.9rem, 2vw, 1.1rem);
+  line-height: 1.5;
+  color: var(--ink);
+}
+
+.pricing-points li::before{
+  content: "✓";
+  position: absolute;
+  left: 0;
+  top: 0;
+  line-height: 1.2;
+  transform: translateY(.1rem);
+  font-weight: 800;
+  color: var(--brand-gold);
+  font-size: 1.15em;
+}
+
+
+.pricing-note{
+  text-align: center;
+  font-size: clamp(0.9rem, 2.2vw, 1.15rem);
+  line-height: 1.65;
+  max-width: 70ch;
+  margin: 1.75rem auto 0 auto;
+  color: var(--ink);
+}
+
+.btn-primary {
+  --btn: #e2b01b;
+  --btn-d1: #cb9d19;
+  --btn-d2: #b78d16;
+  background: var(--btn);
+  color: #ffffff;
+  padding-top: clamp(1.05rem, 1vw, 2.5rem);
+  padding-bottom: clamp(1.05rem, 1vw, 2.5rem);
+  padding-left: clamp(1rem, 3vw, 2rem);
+  padding-right: clamp(1rem, 3vw, 2rem);
+  display: inline-block;
+  border-radius: 0.25rem;
+  border: 0.1rem solid transparent;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 1rem;
+  margin-top: 20px;
+  box-shadow: 0 0.15rem 0.6rem rgba(0,0,0,0.15);
+  transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease, box-shadow 0.2s ease, transform 0.1s ease;
+}
+
+.btn-primary:hover {
+  background: var(--btn-d1);
+  border-color: var(--btn-d1);
+  box-shadow: 0 0.3rem 1rem rgba(0,0,0,0.2);
+  transform: translateY(-0.05rem);
+}
+

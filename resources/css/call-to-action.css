@@ -1,99 +1,128 @@
-@media only screen and (min-width: 0rem) {
-    #cta-51 {
-        position: relative;
-        padding: clamp(1rem, 3vw, 2rem) 0 clamp(1rem, 3vw, 2rem) 0;
-
-    }
-    #cta-51 .cs-container {
-        width: 100%;
-        max-width: 80rem;
-        margin: auto;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: clamp(3rem, 6vw, 4rem);
-    }
-    #cta-51 .cs-content {
-        text-align: center;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    #cta-51 .cs-title {
-        color: var(--bodyTextColorWhite);
-    }
-    #cta-51 .cs-text {
-        margin-bottom: 1rem;
-        color: #fff;
-        opacity: 0.8;
-        padding: 0 clamp(0.75rem, 2vw, 1.5rem);
-
-    }
-    #cta-51 .cs-text:last-of-type {
-        margin-bottom: 2rem;
-    }
-    #cta-51 .cs-button-solid {
-        font-size: 1rem;
-        line-height: clamp(2.875rem, 5.5vw, 3.5rem);
-        text-decoration: none;
-        font-weight: 700;
-        text-align: center;
-        margin: 0;
-        color: #fff;
-        min-width: 9.375rem;
-        padding: 0 1.5rem;
-        background-color: var(--primary);
-        border-radius: 0.25rem;
-        display: inline-block;
-        position: relative;
-        z-index: 1;
-        box-sizing: border-box;
-    }
-    #cta-51 .cs-button-solid:before {
-        content: "";
-        position: absolute;
-        height: 100%;
-        width: 0%;
-        background: #000;
-        opacity: 1;
-        top: 0;
-        left: 0;
-        z-index: -1;
-        border-radius: 0.25rem;
-        transition: width 0.3s;
-    }
-    #cta-51 .cs-button-solid:hover:before {
-        width: 100%;
-    }
-    #cta-51 .cs-picture {
-        height: 100%;
-        width: 100%;
-        display: block;
-        position: absolute;
-        top: 0;
-        left: 0;
-        z-index: -1;
-    }
-    #cta-51 .cs-picture:before {
-        content: "";
-        position: absolute;
-        display: block;
-        height: 100%;
-        width: 100%;
-        background: #000;
-        opacity: 0.8;
-        top: 0;
-        left: 0;
-        z-index: 1;
-    }
-    #cta-51 .cs-picture img {
-        position: absolute;
-        top: 0;
-        left: 0;
-        height: 100%;
-        width: 100%;
-        object-fit: cover;
-    }
+#cta-51 {
+  position: relative;
+  padding: clamp(2rem, 5vw, 4rem) 0;
+  overflow: hidden;
 }
+
+#cta-51 .cs-container {
+  width: 90%;
+  max-width: 80rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding:  clamp(1rem, 5vw, 2rem) 0;
+}
+
+#cta-51 .cs-content {
+  text-align: center;
+  width: 100%;
+  max-width: 48rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.9rem;
+  position: relative;
+  z-index: 2;
+  padding: clamp(1rem, 5vw, 2rem) 0;
+}
+
+#cta-51 .cs-topper {
+  display: inline-block;
+  font-size: 0.9rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #ffffff;
+  opacity: 0.9;
+}
+
+#cta-51 .cs-title {
+  margin: 0;
+  font-size: clamp(1.6rem, 3.2vw, 2.4rem);
+  line-height: 1.15;
+  color: #ffffff;
+}
+
+#cta-51 .cs-text {
+  margin: 0.25rem 0 0.75rem 0;
+  color: #ffffff;
+  opacity: 0.9;
+  font-size: clamp(1rem, 1.6vw, 1.125rem);
+  line-height: 1.55;
+  padding: 0 clamp(0.5rem, 2vw, 1.25rem);
+}
+
+#cta-51 .cs-button-solid {
+  align-self: start;
+  font-size: 1rem;
+  line-height: 1;
+  font-weight: 700;
+  text-decoration: none;
+  color: #ffffff;
+  padding: 0.9rem 1.25rem;
+  background-color: #e2b01b;
+  border-radius: 0.25rem;
+  display: inline-block;
+  position: relative;
+  box-sizing: border-box;
+  transition: transform 0.12s ease, box-shadow 0.12s ease;
+}
+
+#cta-51 .cs-button-solid:hover {
+  transform: translateY(-1px);
+  background-color: #c79b19;
+}
+
+
+
+
+#cta-51 .cs-call-link {
+  display: inline-block;
+  margin-top: 0.5rem;
+  color: #ffffff;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  opacity: 0.95;
+  transition: opacity 0.12s ease;
+}
+
+#cta-51 .cs-call-link:hover {
+  opacity: 1;
+}
+
+#cta-51 .cs-picture {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+}
+
+#cta-51 .cs-picture::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(0,0,0,0.6), rgba(0,0,0,0.6));
+  z-index: 2;
+}
+
+#cta-51 .cs-picture img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#cta-51 .cs-title,
+#cta-51 .cs-topper,
+#cta-51 .cs-text {
+  text-shadow:
+    0 4px 16px rgb(0, 0, 0),
+    0 -2px 8px rgba(0, 0, 0);
+}
+#cta-51 .cta-link {
+  transition: color 0.2s ease;
+}
+
+#cta-51 .cta-link:hover {
+  color: #c5c5c5;
+}
+
