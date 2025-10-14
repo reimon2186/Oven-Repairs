@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #fff;
-    color: #005484;
+    color: #004376;
     margin: 0;
     line-height: 1.5;
 }
@@ -38,7 +38,7 @@ body {
 
 
 h1, h2, h3 {
-    color: #005484;
+    color: #004376;
     margin: 10px 0;
 }
 
@@ -65,7 +65,7 @@ ul {
 }
 
 strong {
-    color: #005484;
+    color: #004376;
 }
 @media only screen and (max-width: 768px) {
     .main{
