@@ -87,21 +87,7 @@
     position: relative;
     z-index: 1;
   }
-  #sbsr-1810 .cs-image-group:before {
-    content: '';
-    width: 110rem;
-    height: 110rem;
-    margin-left: -18.75rem;
-    background-color: rgba(255, 255, 255, 0.08);
-    backdrop-filter: blur(20px);
-    position: absolute;
-    display: none;
-    top: -12.5em;
-    left: 50%;
-    transform: skew(-40deg);
-    transform-origin: center;
-    z-index: -1;
-  }
+
   #sbsr-1810 .cs-picture {
     width: auto;
     height: 40.1875em;
