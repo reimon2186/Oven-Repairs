@@ -2,5 +2,6 @@ h4.nearbytitle {
     line-height: 2.2em;
     color: #fff;
     background-color: #004277;
-    font-size: clamp(1.1rem, 2.8vw, 1.6rem);;
+    font-size: clamp(1.1rem, 2.8vw, 1.6rem);
+    margin:0;
 }
