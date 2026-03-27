@@ -74,7 +74,7 @@
   color: var(--brand-blue);
 }
 .plus{
-  font-size: clamp(0.6rem, 2.6vw, 1.25rem);
+  font-size: clamp(0.6rem, 2.6vw, 1.25rem) !important;
   font-weight: 700;
   color: var(--brand-gold);
   white-space: nowrap;
